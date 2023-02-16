@@ -4,11 +4,11 @@
 
 ## Team
 
-- **André Mategka** (Coordinator): e11809614@student.tuwien.ac.at
-- **Philipp-Lorenz Glaser**: philipp-lorenz.glaser@tuwien.ac.at
-- **Philipp Ginter**: e11704322@student.tuwien.ac.at
-- **Rafael Cristino**: e12202238@student.tuwien.ac.at
-- **Xavier Pisco**: e12206635@student.tuwien.ac.at
+- **André Mategka** (Coordinator)
+- **Philipp-Lorenz Glaser**
+- **Philipp Ginter**
+- **Rafael Cristino**
+- **Xavier Pisco**
 
 ## Key Submission Details
 
@@ -42,52 +42,6 @@ textual statistics.
 ### Testing Environment
 
 This project was tested exclusively on local hardware.
-
-|                | Environment #1                                                           |
-|---------------:|:-------------------------------------------------------------------------|
-|           Name | André Mategka                                                            |
-|        General | Virtualized environment (Windows Subsystem for Linux 2 on Windows 11)    |
-|        Host OS | Windows 11 21H2 (Build 22000.1335)                                       |
-|       Guest OS | Ubuntu 20.04.5 LTS (GNU/Linux 5.10.102.1-microsoft-standard-WSL2 x86_64) |
-|         Docker | Version 20.10.20 (via Docker Desktop on WSL 2)                           |
-| Docker Compose | Version 2.12.0                                                           |
-|      Processor | Intel Core i7-12700KF                                                    |
-|         Memory | 16 GiB (allocated to WSL 2)                                              |
-|        Storage | 500 GB (for WSL 2)                                                       |
-|       Browsers | Google Chrome 108.0.5359.126, Microsoft Edge 108.0.1462.76               |
-
-|                | Environment #2                                                           |
-|---------------:|:-------------------------------------------------------------------------|
-|           Name | Philipp-Lorenz Glaser                                                    |
-|             OS | macOS 12.5                                                               |
-|         Docker | Version 20.10.14                                                         |
-| Docker Compose | Version 1.29.2                                                           |
-|      Processor | Apple M1 Pro                                                             |
-|         Memory | 16 GiB                                                                   |
-|        Storage | 500 GB                                                                   |
-|       Browsers | Firefox 108.0.2                                                          |
-
-|                | Environment #3                                                           |
-|---------------:|:-------------------------------------------------------------------------|
-|           Name | Rafael Cristino                                                          |
-|             OS | Pop!_OS 22.04 (linux kernel 6.0.12-76060006-generic)                     |
-|         Docker | Version 20.10.22                                                         |
-| Docker Compose | Version 2.14.1                                                           |
-|      Processor | Intel Core i5-8250U                                                      |
-|         Memory | 16 GiB                                                                   |
-|        Storage | 256 GB                                                                   |
-|       Browsers | Firefox 108.0                                                            |
-
-|                | Environment #4                                                           |
-|---------------:|:-------------------------------------------------------------------------|
-|           Name | Xavier Pisco                                                          |
-|             OS | ArcoLinux (linux kernel 6.1.6)                     |
-|         Docker | Version 20.10.22                                                         |
-| Docker Compose | Version 2.14.2                                                           |
-|      Processor | Intel Core i7-7700HQ                                                      |
-|         Memory | 32 GiB                                                                   |
-|        Storage | 256 GB                                                                   |
-|       Browsers | Firefox 108.0.2                                                            |
 
 You can view the most recent protocol for our manual system tests in the
 [SYSTEM_TESTS.md](SYSTEM_TESTS.md).
